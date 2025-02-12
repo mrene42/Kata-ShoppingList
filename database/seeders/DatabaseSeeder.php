@@ -21,27 +21,27 @@ class DatabaseSeeder extends Seeder
             'email' => 'test@example.com',
         ]);
 
-        Item::factory()->create([
+        Item::create([
             'name' => 'Sheets',
             'category' => 'Home',
         ]);
 
-        Item::factory()->create([
+        Item::create([
             'name' => 'Oranges',
             'category' => 'Food',
         ]);
 
-        Item::factory()->create([
+        Item::create([
             'name' => 'Shirt',
             'category' => 'Fashion',
         ]);
 
-        Item::factory()->create([
+        Item::create([
             'name' => 'Phone',
             'category' => 'Electronics',
         ]);
 
-        Item::factory()->create([
+        Item::create([
             'name' => 'Sunglasses',
             'category' => 'Other',
         ]);
