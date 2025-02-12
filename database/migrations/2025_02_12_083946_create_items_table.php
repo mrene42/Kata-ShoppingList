@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('items', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->enum('category', ['Home', 'Food', 'Fashion', 'Electronics', 'Other']);
             $table->timestamps();
         });
     }
